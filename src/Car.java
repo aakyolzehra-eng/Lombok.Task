@@ -1,0 +1,14 @@
+import lombok.*;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Car {
+
+    private String model;
+    private String brand;
+    private int year;
+    private int price;
+    private String color;
+    private int quantity;
+}
